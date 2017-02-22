@@ -1,4 +1,4 @@
-# 1 运行
+# 1. 运行
  npm install
   
  npm start
