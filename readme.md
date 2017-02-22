@@ -1,3 +1,4 @@
 # 1 运行
-  ####npm init
-  ####npm start
+ npm install
+  
+ npm start
