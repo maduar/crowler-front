@@ -7,6 +7,7 @@ import { Hero } from './hero';
 import { HEROES } from './mock-heroes';
 
 @Component({
+    moduleId: module.id,
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
@@ -16,7 +17,7 @@ import { HEROES } from './mock-heroes';
     </nav>
     <router-outlet></router-outlet>
   `,
-  // styleUrls: ['./app.component.css'],
+    styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
     title = 'Tour of Heroes';
