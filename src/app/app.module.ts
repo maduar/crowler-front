@@ -14,6 +14,8 @@ import { DashboardComponent }   from './dashboard.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroService }          from './hero.service';
+import { CrowlerComponent }  from './crowler.component';
+
 
 @NgModule({
     imports: [
@@ -28,6 +30,7 @@ import { HeroService }          from './hero.service';
         DashboardComponent,
         HeroDetailComponent,
         HeroesComponent,
+        CrowlerComponent
     ],
     providers: [ HeroService ],
     bootstrap: [ AppComponent ]
